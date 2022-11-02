@@ -5,65 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Raymond Dover | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="./menu/fontawesome-free-5.13.0-web/css/all.css"
+    />
+    <title>Discover My Talents | R.Dover</title>
   </head>
 
   <body>
-    <section id="home" class="home">
-      <header>
-        <nav>
-          <a href="#home">HOME</a>
-          <a href="#about">ABOUT</a>
-          <a href="#portfolio">PORTFOLIO</a>
-          <a href="#contact">CONTACT</a>
-        </nav>
-      </header>
-    </section>
+    <!-- <section id="home" class="home"> -->
+    <header id="home" class="home">
+      <nav>
+        <!-- <div class="logo"><h1>Raymond Dover</h1></div> -->
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+          <span class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+          </span>
+        </ul>
+      </nav>
+    </header>
+    <!-- </section> -->
 
     <section>
       <img src="./assets/images/My project-1.png" class="banner" />
     </section>
 
-    <h1>Hello, I'm Raymond Dover. I'm a full-stack web developer.</h1>
+    <!-- <section id="hello" class="hello">
+      <h1>Hello, I'm <span id="full-name">Raymond Dover</span>.</h1>
+      <h1>I'm a full-stack web developer.</h1>
+    </section> -->
 
     <main>
       <section id="about" class="about">
-        <h2>ABOUT</h2>
+        <div id="about-block">
+          <h2>ABOUT</h2>
+          <div class="about-bar"></div>
+        </div>
       </section>
+
       <section id="portfolio" class="portfolio">
-        <h2>PORTFOLIO</h2>
+        <div id="project-block">
+          <h2>PROJECTS</h2>
+          <div class="project-bar"></div>
+        </div>
       </section>
-      <section id="contact" class="contact">
-        <h2>CONTACT</h2>
+
+      <section id="contact-block">
+        <div id="contact" class="contact">
+          <h2>CONTACT</h2>
+          <div class="contact-bar"></div>
+        </div>
+        <form>
+          <h3>Have a question or want to work together?</h3>
+          <p>
+            <!-- <label for="username">Name:</label> -->
+            <input id="username" type="text" placeholder="First Last" />
+          </p>
+          <p>
+            <!-- <label for="email">Email:</label> -->
+            <input id="email" type="text" placeholder="me@example.com" />
+          </p>
+          <p>
+            <!-- <label for="message">Message:</label> -->
+            <textarea id="message" placeholder="Your message"></textarea>
+          </p>
+          <p>
+            <!-- <label for="contact-purpose">Purpose for Contact:</label> -->
+            <select id="contact-purpose">
+              <option selected>select an option *</option>
+              <option>Question</option>
+              <option>Work Togther</option>
+            </select>
+          </p>
+          <div class="text-center">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
       </section>
     </main>
 
     <footer>
-      <section>
+      <span id="social-links" class="social-links">
         <a href="https://www.facebook.com/raymond.dover.7">
-          <img src="./assets/images/f_logo_RGB-Black_58.png" class="facebook" />
+          <i class="fab fa-facebook"></i>
         </a>
         <a href="https://www.instagram.com/raymond.dover/">
-          <img
-            src="./assets/images/Instagram_Glyph_Black.png"
-            class="instagram"
-          />
+          <i class="fab fa-instagram"></i>
         </a>
         <a href="https://www.twitter.com/rdover">
-          <img
-            src="./assets/images/2021 Twitter logo - black.png"
-            class="twitter"
-          />
+         <i class="fab fa-twitter"></i>
         </a>
         <a href="https://www.linkedin.com/in/raymond-dover-14846017">
-          <img src="./assets/images/Logo-Black-34px-R.png" class="linkedin" />
+          <i class="fab fa-linkedin"></i>
         </a>
         <a href="https://github.com/raydover">
-          <img src="./assets/images/GitHub-Mark-32px.png" class="github" />
+          <i class="fab fa-github"></i>
         </a>
-      </section>
+      </span>
+
       <h4>created by UNC Charlotte-Coding Bootcamp Student</h4>
       <p>RAYMOND DOVER <span class="copyright">&copy; 2022</span></p>
     </footer>
+
+    <script src="./app.js"></script>
   </body>
 </html>
+
+
