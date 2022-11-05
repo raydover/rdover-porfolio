@@ -16,6 +16,7 @@ nav {
     padding-right: 45px;
     position: fixed;
     width: 100%;
+    border-bottom: 2px solid aquamarine;
 }
 
 nav .mainMenu {
@@ -26,6 +27,7 @@ nav .mainMenu {
 nav .mainMenu li a {
     display: inline-block;
     padding: 15px;
+    padding-left: 25px;
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
@@ -62,11 +64,11 @@ nav .mainMenu .closeMenu,
 }
 
 .fa-linkedin:hover {
-    color: rgb(104, 228, 116);
+    color: rgb(49, 246, 68);
 }
 
 .fa-github:hover {
-    color: rgb(187, 228, 104);
+    color: rgb(249, 223, 78);
 }
 
 /* nav .logo {
@@ -114,22 +116,18 @@ nav .mainMenu .closeMenu,
     }
 }
 
-.banner {
-    margin-top: 0px;
+.banner-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    background-size: cover;
+    display: block;
 }
 
-/* #hello {
-    padding-top: 30px;
-}
-
-#hello h1 {
+.banner-text {
     text-align: center;
-    font-size: 50px;
     color:rgb(50, 50, 50);
-} */
+}
 
 #full-name {
     font: bolder;
@@ -145,7 +143,7 @@ nav .mainMenu .closeMenu,
 }
 
 #about-block {
-    margin-top: 70px;
+    /* margin-top: 70px; */
     height: 800px;
     width: 100%;
     /* margin-bottom: 25px; */
@@ -166,7 +164,7 @@ nav .mainMenu .closeMenu,
 }
 
 #project-block {
-    margin-top: 70px;
+    /* margin-top: 70px; */
     height: 800px;
     width: 100%;
     /* margin-bottom: 25px; */
@@ -176,6 +174,28 @@ nav .mainMenu .closeMenu,
 .project-bar {
     border-bottom: 5px solid rgb(50, 50, 50);
     width: 170px;
+    margin: 0 auto;
+}
+
+.skills h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: rgb(50, 50, 50);
+}
+
+#skills-block {
+    /* margin-top: 70px; */
+    height: 800px;
+    width: 100%;
+    /* margin-bottom: 25px; */
+    /* background-color: #f4f3f1; */
+}
+
+.skills-bar {
+    border-bottom: 5px solid rgb(50, 50, 50);
+    width: 105px;
     margin: 0 auto;
 }
 
@@ -234,18 +254,25 @@ form p {
     text-align: right;
 } */
 
-input,
-textarea,
+input, 
 select {
-    box-sizing: border-box;
     width: 400px;
     height: 30px;
+    padding-left: 10px;
     border: 1px solid #4F4846;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 textarea {
-    vertical-align: top;
+    width: 400px;
     height: 130px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: 1px solid #4F4846;
+    box-sizing: border-box;
+    border-radius: 5px;
+    vertical-align: top;
 }
 
 .text-center {
@@ -258,6 +285,7 @@ button {
     width: 120px;
     background-color: #4F4846;
     color: #FDF8F5;
+    border-radius: 5px;
 }
 
 button:hover {
@@ -274,19 +302,19 @@ footer {
 .social-links i {
     display: inline-block;
     padding-right: 12px;
+    padding-top: 20px;
 }
 
 .social-links a {
     text-decoration: none;
     font-size: 2rem;
-    color: darkmagenta;
+    color: aliceblue;
     cursor: pointer;
-    transition: 1.25rem;
 }
 
 .social-links a:hover {
     background: none;
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
 }
 
 footer h4 {
@@ -296,6 +324,7 @@ footer h4 {
 footer p {
     padding-top: 7px;
     color: aliceblue;
+    padding-bottom: 20px;
 }
 
 .copyright {

@@ -9,11 +9,11 @@
       rel="stylesheet"
       href="./menu/fontawesome-free-5.13.0-web/css/all.css"
     />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <title>Discover My Talents | R.Dover</title>
   </head>
 
   <body>
-    <!-- <section id="home" class="home"> -->
     <header id="home" class="home">
       <nav>
         <!-- <div class="logo"><h1>Raymond Dover</h1></div> -->
@@ -22,6 +22,7 @@
           <li><a href="#home">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#skills">SKILLS</a></li>
           <li><a href="#contact">CONTACT</a></li>
           <div class="closeMenu"><i class="fa fa-times"></i></div>
           <span class="icons">
@@ -34,16 +35,20 @@
         </ul>
       </nav>
     </header>
-    <!-- </section> -->
 
-    <section>
-      <img src="./assets/images/My project-1.png" class="banner" />
-    </section>
-
-    <!-- <section id="hello" class="hello">
-      <h1>Hello, I'm <span id="full-name">Raymond Dover</span>.</h1>
-      <h1>I'm a full-stack web developer.</h1>
-    </section> -->
+    <div class="banner-area">
+      <img src="./assets/images/My project-1.png" class="banner-image" />
+      <div id="banner-text" class="banner-text">
+        <h1>Hello, I'm <span id="full-name">Raymond Dover</span>.</h1>
+        <h1>I'm a full-stack web developer.</h1>
+        <!-- <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          sequi, dignissimos fugiat, officiis sint a laboriosam dolor architecto
+          maiores eos corrupti accusamus cumque ipsa officia. A facere odit
+          ratione pariatur.
+        </p> -->
+      </div>
+    </div>
 
     <main>
       <section id="about" class="about">
@@ -57,6 +62,25 @@
         <div id="project-block">
           <h2>PROJECTS</h2>
           <div class="project-bar"></div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div id="skills-block">
+          <h2>SKILLS</h2>
+          <div class="skills-bar"></div>
+          <span class="skills-icons">
+            <i class="fab fa-html5">HTML</i>
+            <i class="fab fa-css3-alt">CSS</i>
+            <i class="fab fa-js">JavaScript</i>
+            <i class="fab fa-node-js">NodeJS</i>
+            <i class="fab fa-react">React</i>
+            <i class="fab fa-bootstrap">Bootstrap</i>
+            <i class="fab fa-npm">npm</i>
+            <i class="fab fa-php">php</i>
+            <i class="fab fa-wix">WiX</i>
+            <i class="fab fa-wordpress-simple">Wordpress</i>
+          </span>
         </div>
       </section>
 
@@ -103,7 +127,7 @@
           <i class="fab fa-instagram"></i>
         </a>
         <a href="https://www.twitter.com/rdover">
-         <i class="fab fa-twitter"></i>
+          <i class="fab fa-twitter"></i>
         </a>
         <a href="https://www.linkedin.com/in/raymond-dover-14846017">
           <i class="fab fa-linkedin"></i>
@@ -113,12 +137,10 @@
         </a>
       </span>
 
-      <h4>created by UNC Charlotte-Coding Bootcamp Student</h4>
-      <p>RAYMOND DOVER <span class="copyright">&copy; 2022</span></p>
+      <h4>designed by Raymond Dover. All Rights Reserved</h4>
+      <p>Copyright <span class="copyright">&copy; 2022</span></p>
     </footer>
 
     <script src="./app.js"></script>
   </body>
 </html>
-
-
