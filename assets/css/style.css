@@ -126,7 +126,7 @@ nav .mainMenu .closeMenu,
 
 .banner-text {
     text-align: center;
-    color:rgb(50, 50, 50);
+    color: rgb(50, 50, 50);
 }
 
 #full-name {
@@ -199,6 +199,124 @@ nav .mainMenu .closeMenu,
     margin: 0 auto;
 }
 
+#skills-section {
+    padding-top: 70px;
+    text-align: center;
+}
+
+#skills-box {
+    display: inline-block ;
+    text-decoration: none;
+    padding-inline: 30px;
+}
+
+.skills-icons i {
+    font-size: 4rem;
+    color: aquamarine;
+}
+
+.skills-icons p {
+    font-size: 1rem;
+    padding-top: 5px;
+    color: rgb(50, 50, 50);
+}
+
+.fa-html5:hover {
+    color: rgb(0, 110, 255);
+}
+
+.fa-css3-alt:hover {
+    color: rgb(255, 0, 191);
+}
+
+.fa-js:hover {
+    color: rgb(255, 94, 0);
+}
+
+.fa-node-js:hover {
+    color: rgb(49, 246, 68);
+}
+
+.devicon-express-original:hover {
+    color: rgb(249, 223, 78);
+}
+
+.fa-react:hover {
+    color: rgb(0, 110, 255);
+}
+
+.devicon-mysql-plain:hover {
+    color: rgb(255, 0, 191);
+}
+
+.devicon-graphql-plain:hover {
+    color: rgb(255, 94, 0);
+}
+
+.devicon-jest-plain:hover {
+    color: rgb(49, 246, 68);
+}
+
+.devicon-jquery-plain:hover {
+    color: rgb(249, 223, 78);
+}
+
+.devicon-mongodb-plain:hover {
+    color: rgb(0, 110, 255);
+}
+
+.devicon-sequelize-plain:hover {
+    color: rgb(255, 0, 191);
+}
+
+.devicon-webpack-plain:hover {
+    color: rgb(255, 94, 0);
+}
+
+.devicon-handlebars-plain:hover {
+    color: rgb(49, 246, 68);
+}
+
+.fa-npm:hover {
+    color: rgb(249, 223, 78);
+}
+
+.fa-php:hover {
+    color: rgb(0, 110, 255);
+}
+
+.devicon-git-plain:hover {
+    color: rgb(255, 0, 191);
+}
+
+.devicon-gitlab-plain:hover {
+    color: rgb(255, 94, 0);
+}
+
+.devicon-github-original:hover {
+    color: rgb(49, 246, 68);
+}
+
+.devicon-vscode-plain:hover:hover {
+    color: rgb(249, 223, 78);
+}
+
+.devicon-heroku-original:hover {
+    color: rgb(0, 110, 255);
+}
+
+.fa-bootstrap:hover {
+    color: rgb(255, 0, 191);
+}
+
+.fa-wix:hover {
+    color: rgb(255, 94, 0);
+}
+
+.fa-wordpress-simple:hover {
+    color: rgb(49, 246, 68);
+}
+
 #contact-block {
     /* margin-top: 70px; */
     height: 720px;
@@ -254,7 +372,7 @@ form p {
     text-align: right;
 } */
 
-input, 
+input,
 select {
     width: 400px;
     height: 30px;
